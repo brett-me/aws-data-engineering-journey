@@ -6,5 +6,6 @@ It contains notes, experiments and small projects.
 Some ideas may evolve or change as I learn more.
 
 The goal is to:
-• build consistent learning discipline
-• document my progress publicly
+
+- build consistent learning discipline
+- document my progress publicly
