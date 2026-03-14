@@ -1,6 +1,6 @@
 # AWS Data Engineer Journey
 
-This repository documents my journey learning data engineering on AWS while preparing for the AWS Data Engineer Associate certification.
+This repository documents my journey learning data engineering on AWS while preparing for the AWS Data Engineer Associate certification. It also includes sections on sql and other non-aws specific data tools.
 
 It contains notes, experiments and small projects.
 Some ideas may evolve or change as I learn more.
