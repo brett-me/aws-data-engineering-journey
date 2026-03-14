@@ -1,0 +1,164 @@
+# ---------------------------------
+# OS / editor noise
+# ---------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vim / shell temp files
+*.swp
+*.swo
+*~
+
+# ---------------------------------
+# VS Code
+# ---------------------------------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.vscode-test/
+
+# ---------------------------------
+# Python
+# ---------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / lint / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ---------------------------------
+# Logs / temp
+# ---------------------------------
+*.log
+logs/
+tmp/
+temp/
+.tmp/
+.cache/
+
+# ---------------------------------
+# Environment / secrets
+# ---------------------------------
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local
+
+# Keys / certs / secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ---------------------------------
+# AWS
+# ---------------------------------
+# SAM / Serverless / CDK
+.aws-sam/
+.serverless/
+cdk.out/
+
+# Chalice
+.chalice/deployments/
+.chalice/venv/
+
+# Local AWS config accidentally created inside repo
+.aws/
+
+# ---------------------------------
+# Terraform / infra
+# ---------------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# ---------------------------------
+# dbt
+# ---------------------------------
+target/
+dbt_packages/
+dbt_modules/
+logs/
+
+# ---------------------------------
+# Spark / PySpark local artefacts
+# ---------------------------------
+metastore_db/
+spark-warehouse/
+derby.log
+
+# ---------------------------------
+# Airflow (if you use it locally)
+# ---------------------------------
+airflow.db
+airflow-webserver.pid
+airflow-scheduler.pid
+airflow-worker.pid
+airflow-standalone-admin-password.txt
+logs/
+
+# ---------------------------------
+# Postgres / SQL local artefacts
+# Keep .sql files tracked.
+# Ignore local DB/storage/dumps only.
+# ---------------------------------
+.pgdata/
+postgres-data/
+*.dump
+*.backup
+
+# psql local history
+.psql_history
+
+# ---------------------------------
+# Archives / scratch exports
+# ---------------------------------
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
