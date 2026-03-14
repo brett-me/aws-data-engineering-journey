@@ -6,7 +6,7 @@ The practice of using a network of remote servers hosted on the internet to stor
 
 ## cloud hosting
 
-Multiple physical machines that act as one system. The system is abstracted into multiple cloud services. 
+Multiple physical machines that act as one system. The system is abstracted into multiple cloud services.
 
 - Flexible
 - Scalable
