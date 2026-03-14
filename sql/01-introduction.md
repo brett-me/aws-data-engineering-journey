@@ -39,14 +39,3 @@ values => column specificity
 ### (dql)
 
 - select
-
-pg_lsclusters
-sudo pg_conftool 18 main set port 5434
-sudo pg_ctlcluster 18 main restart
-pg_lsclusters
-ss -ltnp | grep 5434
-
-sudo nano /etc/postgresql/18/main/postgresql.conf
-
-echo "alias pgl='psql -h localhost -p 5434 -U postgres -d postgres -W'" >> ~/.bashrc
-source ~/.bashrc
