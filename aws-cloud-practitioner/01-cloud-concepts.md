@@ -48,9 +48,9 @@ A csp is a company which provides multiple cloud services which:
 
 ### containers
 
-- virtual machine running multiple containers (via docker deamon)
+- virtual machine running multiple containers (via docker daemon)
 - run multiple containers
-- maximise available capacity and efficiency
+- maximize available capacity and efficiency
 - multiple apps can run side by side (will not cause conflicts)
 
 ### functions
