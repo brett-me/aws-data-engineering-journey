@@ -12,7 +12,7 @@
 - having
 - order by
 
-## most simple form
+## select (basic form)
 
 select {columns} or use `*` to retrieve all columns
 from {table};
