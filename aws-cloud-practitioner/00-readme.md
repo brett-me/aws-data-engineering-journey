@@ -1,4 +1,4 @@
-# aws-cloud-practitioner
+# aws-cloud-practitioner (CLF-C02)
 
 Foundational preparation for the AWS Data Engineer Associate certification. Contains summary notes and experiments.
 
