@@ -17,6 +17,10 @@
 select {columns} or use `*` to retrieve all columns
 from {table};
 
+## distinct
+
+removes duplicates, each value appears only once
+
 ## where
 
 - filters data based on a condition
@@ -59,9 +63,28 @@ from {table};
   - max
   - min
 
+## having
+
+- filters data after aggregation
+- use with group by
+
 ## order by
 
 - used to sort data
 - asc: lowest to highest (default)
 - desc: highest to lowest
 - nested: use comma to sort by multiple columns (order by country asc, score desc)
+
+## limit
+
+- specify number of rows displayed
+
+## coding order
+
+select (distinct) column_a, column_b (as b)
+from table
+where clause (eg: column_b > 0)
+group by column
+having clause (eg: column_b > 100)
+order by column
+limit (row_number);
