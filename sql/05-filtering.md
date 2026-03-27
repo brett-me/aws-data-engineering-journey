@@ -33,4 +33,3 @@
 - like: search for pattern
   - % match any
   - _ match exactly 1
-
